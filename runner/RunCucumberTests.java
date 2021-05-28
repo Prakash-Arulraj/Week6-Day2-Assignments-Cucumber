@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		dryRun = false,
-		features = {"src/test/java/features/DeleteIncident.feature"},
+		features = {"src/test/java/features/Login.feature","src/test/java/features/CreateIncident.feature","src/test/java/features/ResolveIncident.feature","src/test/java/features/DeleteIncident.feature"},
 		glue = {"stepDefinition","hooks"},
 		monochrome = true
 		//Resolution code, Close notes
